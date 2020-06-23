@@ -27,6 +27,7 @@ This repository contains code, literature, links, data, and other resources for 
 ### Literature
 
 * Links to literature can go here (or somewhere else!)
+* [New York Times: Mutation Allows Coronavirus to Infect More Cells, Study Finds. Scientists Urge Caution](https://www.nytimes.com/2020/06/12/science/coronavirus-mutation-genetics-spike.html?searchResultPosition=1)
 
 ### Misc.
 
