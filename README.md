@@ -15,11 +15,14 @@ This repository contains code, literature, links, data, and other resources for 
 * [Python3 cheat sheet](https://github.com/wilfredinni/python-cheatsheet)
 * TODO: Linux/Unix cheat sheet
 * TODO: Pandas cheat sheet
-* TODO: Git cheat sheet
+* [Git cheat sheet][1]
+* Learn how to write this page: a [markdown (`*.md`) cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)!
 
 #### Learning Git
 
-* TODO: Git tutorial video
+* GitHub provides a list of [resources to learn git](https://try.github.io/). Notably:
+   * [Learn git branching interactively](https://learngitbranching.js.org/) -- An interactive tool that helps one _vizualize_ git branching
+   * A [cheat sheet][1] provided by GitHub
 
 ### Literature
 
@@ -34,4 +37,4 @@ Fun science side projects!
     * [Pymol](https://pymol.org/) -- Free software for looking at structures from the RCSB (AKA "PDB structures")
 
 
-
+[1]: https://github.github.com/training-kit/downloads/github-git-cheat-sheet/ "git cheat sheet"
