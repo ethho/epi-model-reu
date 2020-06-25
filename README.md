@@ -27,18 +27,18 @@ This repository contains code, literature, links, data, and other resources for 
 
 ### Literature
 
-* Links to literature can go here (or somewhere else!)
 * [COVID-19 Resources List](https://docs.google.com/spreadsheets/d/16NmqBFRV5W801Gp0xcCx7fMMW6STQwC3203E-HzMUhw/edit?usp=sharing)
 * [H1N1 Resources List](https://docs.google.com/spreadsheets/d/1FKQZX744kTdjj02hgceGFqKhwf1taUW7aEF4IsTerak/edit#gid=0)
 * [New York Times: Mutation Allows Coronavirus to Infect More Cells, Study Finds. Scientists Urge Caution](https://www.nytimes.com/2020/06/12/science/coronavirus-mutation-genetics-spike.html?searchResultPosition=1)
 * [Blood types correlate with COVID-19 infection outcomes](https://www.nejm.org/doi/full/10.1056/NEJMoa2020283)
+* [COVID in cats, and structural homology studies between mammalian receptors](notes/20200625_reu_mentoring.md)
 
 ### Misc.
 
 Fun science side projects!
 
 * Looking at protein crystal structures
-    * [Protein Data Bank](http://www.rcsb.org)(AKA PDB or RCSB) -- Public repository of protein structures
+    * [Protein Data Bank] (http://www.rcsb.org)(AKA PDB or RCSB) -- Public repository of protein structures
     * [Pymol](https://pymol.org/) -- Free software for looking at structures from the RCSB (AKA "PDB structures")
 
 
