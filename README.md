@@ -28,7 +28,8 @@ This repository contains code, literature, links, data, and other resources for 
 ### Literature
 
 * Links to literature can go here (or somewhere else!)
-* [Google Sheet](https://docs.google.com/spreadsheets/d/1FKQZX744kTdjj02hgceGFqKhwf1taUW7aEF4IsTerak/edit#gid=0) listing resources
+* [COVID-19 Resources List](https://docs.google.com/spreadsheets/d/16NmqBFRV5W801Gp0xcCx7fMMW6STQwC3203E-HzMUhw/edit?usp=sharing)
+* [H1N1 Resources List](https://docs.google.com/spreadsheets/d/1FKQZX744kTdjj02hgceGFqKhwf1taUW7aEF4IsTerak/edit#gid=0)
 * [New York Times: Mutation Allows Coronavirus to Infect More Cells, Study Finds. Scientists Urge Caution](https://www.nytimes.com/2020/06/12/science/coronavirus-mutation-genetics-spike.html?searchResultPosition=1)
 * [Blood types correlate with COVID-19 infection outcomes](https://www.nejm.org/doi/full/10.1056/NEJMoa2020283)
 
