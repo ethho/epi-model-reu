@@ -44,7 +44,8 @@ Ethan Ho June 25, 2020
 * Concerning domesticated animals, cats and ferrets appear to be the most susceptible to infection.
 * Dogs appear to be less susceptible.
 * Little population-scale data on transmission in domesticated animals, as far as I'm aware.
-* Potential idea: extrapolate on the [Damas et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7263403/) homology study
-    * The Damas study uses a multi-faceted approach to computing the risk score. There are also simpler "score" analyses that are cited in the Damas paper.
-    * Replicate the "susceptibilty score" calculation, but for a different disease target
+* Potential idea: replicate the [Damas et al](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7263403/) homology study
+    * The Damas study uses a multi-faceted approach to computing the risk score. There are also simpler "score" analyses that are cited in this paper.
+    * Replicate the "susceptibilty score" calculation, but for a different receptor target
+        * TMPRSSs are low-hanging fruit here
     * What is the sequence homology of TMPRSSs between different mammals? Would the risk score for a given species be the same for ACE2 and TMPRSS?
