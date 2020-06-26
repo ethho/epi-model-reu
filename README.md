@@ -25,6 +25,10 @@ This repository contains code, literature, links, data, and other resources for 
    * [Learn git branching interactively](https://learngitbranching.js.org/) -- An interactive tool that helps one _vizualize_ git branching
    * A [cheat sheet][1] provided by GitHub
 
+### More In-Depth Guides
+
+* [Biopython guide](http://biopython.org/DIST/docs/tutorial/Tutorial.html): how to align sequences using Python
+
 ### Literature
 
 * [COVID-19 Resources List](https://docs.google.com/spreadsheets/d/16NmqBFRV5W801Gp0xcCx7fMMW6STQwC3203E-HzMUhw/edit?usp=sharing)
