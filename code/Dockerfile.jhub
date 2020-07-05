@@ -3,21 +3,18 @@ ENV HOME=/home/jovyan
 
 USER root
 RUN apt-get update && \
-    apt-get upgrade -yq --no-install-recommends && \
-    apt-get install -yq libgeos-dev
+    apt-get upgrade -yq --no-install-recommends
 USER $NB_UID
 
 # Python package deps
-ARG REQUIREMENTS=jhub/requirements-jhub.txt
-COPY $REQUIREMENTS /$REQUIREMENTS
-RUN pip install -r /$REQUIREMENTS
+ARG PYPROJECT_TOML=pyproject.toml
+COPY $PYPROJECT_TOML ./pyproject.toml
+RUN pip install poetry && \
+    poetry install -n
 
-# IGV viewer
+# NGL viewer for Jupyter
 USER root
-#RUN jupyter serverextension enable --py igv && \
-    #jupyter nbextension install --py igv && \
-    #jupyter nbextension enable --py igv
-RUN pip install nglview && \
-    jupyter-nbextension enable nglview --py --sys-prefix
+RUN poetry run jupyter labextension install nglview-js-widgets && \
+    poetry run jupyter-nbextension enable nglview --py --sys-prefix
 USER $NB_UID
 

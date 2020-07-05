@@ -7,7 +7,7 @@ GITREF_FULL=$(shell git rev-parse HEAD)
 # Docker image & dist
 ####################################
 
-VERSION = $(shell python setup.py --version)
+VERSION = "0.1.0"
 IMAGE_ORG ?= enho
 IMAGE_NAME ?= epi-models
 IMAGE_TAG ?= $(VERSION)
@@ -47,19 +47,26 @@ git:
 	fi
 
 ####################################
-# Jupyterhub
+# Docker
 ####################################
 IMAGE_JHUB ?= $(IMAGE_ORG)/$(IMAGE_NAME):jhub
+IMAGE_UBUNTU ?= $(IMAGE_ORG)/$(IMAGE_NAME):ubuntu
 JUPYTER_ENABLE_LAB ?=
 
-image-jhub: Dockerfile.jhub requirements-jhub.txt | docker
-	docker build --build-arg REQUIREMENTS=jhub/$(word 2,$^) \
+image-jhub: Dockerfile.jhub pyproject.toml | docker
+	docker build --build-arg PYPROJECT_TOML=$(word 2,$^) \
 		-t $(IMAGE_JHUB) \
-		-f $< ..
+		-f $< .
+
+image-ubuntu: Dockerfile pyproject.toml | docker
+	docker build --build-arg PYPROJECT_TOML=$(word 2,$^) \
+		-t $(IMAGE_UBUNTU) \
+		-f $< .
 
 jhub: image-jhub | docker
-	docker run -p 8888:8888 \
-		-v ${PWD}:/home/jovyan/work \
-		-e JUPYTER_ENABLE_LAB=$(JUPYTER_ENABLE_LAB) \
-		$(IMAGE_JHUB)
+	docker run --rm -p 8888:8888 \
+		-v $$(dirname ${PWD}):/home/jovyan/work \
+		-e JUPYTER_ENABLE_LAB=yes \
+		$(IMAGE_JHUB) \
+		jupyter lab
 

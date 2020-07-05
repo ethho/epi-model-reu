@@ -7,7 +7,7 @@ attrs==19.3.0
 backcall==0.1.0
 beautifulsoup4==4.8.2
 bleach==3.1.4
-biopython
+* biopython
 CacheControl==0.12.6
 cachy==0.3.0
 certifi==2020.4.5.1
@@ -40,7 +40,7 @@ h5py==2.10.0
 html5lib==1.0.1
 idna==2.9
 importlib-metadata==1.6.0
-ipykernel==5.2.0
+* ipykernel==5.2.0
 ipython==7.13.0
 ipython-genutils==0.2.0
 ipywidgets==7.5.1
@@ -48,7 +48,7 @@ itsdangerous==1.1.0
 jedi==0.16.0
 Jinja2==2.11.1
 jsonschema==3.2.0
-jupyter==1.0.0
+* jupyter==1.0.0
 jupyter-client==6.1.2
 jupyter-console==6.1.0
 jupyter-contrib-core==0.3.3
@@ -63,7 +63,7 @@ kiwisolver==1.2.0
 lockfile==0.12.2
 lxml==4.5.0
 MarkupSafe==1.1.1
-matplotlib==3.2.1
+* matplotlib==3.2.1
 mistune==0.8.4
 more-itertools==8.2.0
 msgpack==1.0.0
@@ -73,23 +73,23 @@ nbformat==5.0.5
 nbserverproxy==0.8.8
 notebook==6.0.3
 numexpr==2.7.1
-numpy==1.18.2
+* numpy==1.18.2
 orca==1.5.3
 packaging==20.3
-pandas==1.0.3
+* pandas==1.0.3
 pandocfilters==1.4.2
 parso==0.6.2
 pastel==0.2.0
 pexpect==4.8.0
 pickleshare==0.7.5
 pkginfo==1.5.0.1
-plotly==4.6.0
+* plotly==4.6.0
 plotly-geo
 geopandas==0.3.0
 pyshp==1.2.10
 shapely==1.6.3
 pluggy==0.13.1
-poetry==1.0.5
+* poetry==1.0.5
 prometheus-client==0.7.1
 prompt-toolkit==3.0.5
 psutil==5.7.0
@@ -99,17 +99,17 @@ Pygments==2.6.1
 pylev==1.3.0
 pyparsing==2.4.6
 pyrsistent==0.14.11
-pytest==5.4.1
+* pytest==5.4.1
 python-dateutil==2.8.1
 pytz==2019.3
-PyYAML==5.3.1
+* PyYAML==5.3.1
 pyzmq==19.0.0
 qtconsole==4.7.2
 QtPy==1.9.0
 requests==2.23.0
 requests-toolbelt==0.8.0
 retrying==1.3.3
-scipy==1.4.1
+* scipy==1.4.1
 seaborn==0.10.0
 Send2Trash==1.5.0
 shellingham==1.3.2
@@ -130,7 +130,7 @@ wcwidth==0.1.9
 webencodings==0.5.1
 Werkzeug==1.0.1
 widgetsnbextension==3.5.1
-xarray==0.15.1
+* xarray==0.15.1
 yarl==1.4.2
 zipp==3.1.0
 igv-jupyter

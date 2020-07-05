@@ -374,6 +374,17 @@ i18n = ["Babel (>=0.8)"]
 
 [[package]]
 category = "main"
+description = "A Python implementation of the JSON5 data format."
+name = "json5"
+optional = false
+python-versions = "*"
+version = "0.9.5"
+
+[package.extras]
+dev = ["hypothesis"]
+
+[[package]]
+category = "main"
 description = "An implementation of JSON Schema validation for Python"
 name = "jsonschema"
 optional = false
@@ -457,6 +468,42 @@ version = "4.6.3"
 [package.dependencies]
 pywin32 = ">=1.0"
 traitlets = "*"
+
+[[package]]
+category = "main"
+description = "The JupyterLab notebook server extension."
+name = "jupyterlab"
+optional = false
+python-versions = ">=3.5"
+version = "2.1.5"
+
+[package.dependencies]
+jinja2 = ">=2.10"
+jupyterlab-server = ">=1.1.0,<2.0"
+notebook = ">=4.3.1"
+tornado = "<6.0.0 || >6.0.0,<6.0.1 || >6.0.1,<6.0.2 || >6.0.2"
+
+[package.extras]
+docs = ["sphinx", "recommonmark", "sphinx-rtd-theme", "sphinx-copybutton"]
+test = ["pytest", "pytest-check-links", "requests", "wheel", "virtualenv"]
+
+[[package]]
+category = "main"
+description = "JupyterLab Server"
+name = "jupyterlab-server"
+optional = false
+python-versions = ">=3.5"
+version = "1.2.0"
+
+[package.dependencies]
+jinja2 = ">=2.10"
+json5 = "*"
+jsonschema = ">=3.0.1"
+notebook = ">=4.2.0"
+requests = "*"
+
+[package.extras]
+test = ["pytest", "requests"]
 
 [[package]]
 category = "main"
@@ -586,6 +633,29 @@ traitlets = ">=4.1"
 
 [package.extras]
 test = ["pytest", "pytest-cov", "testpath"]
+
+[[package]]
+category = "main"
+description = "IPython widget to interactively view molecular structures and trajectories."
+name = "nglview"
+optional = false
+python-versions = ">=3.6"
+version = "2.7.7"
+
+[package.dependencies]
+ipywidgets = ">=7"
+numpy = "*"
+
+[package.extras]
+MDAnalysis = ["mdanalysis"]
+ParmEd = ["parmed"]
+ase = ["ase"]
+htmd = ["htmd"]
+mdtraj = ["mdtraj"]
+pytraj = ["pytraj"]
+qcelemental = ["qcelemental"]
+rdkit = ["rdkit"]
+simpletraj = ["simpletraj"]
 
 [[package]]
 category = "main"
@@ -1169,7 +1239,7 @@ setuptools = ">=41.2"
 [[package]]
 category = "main"
 description = "Backport of pathlib-compatible object wrapper for zip files"
-marker = "python_version >= \"3.5\" and python_version < \"3.8\" or python_version < \"3.8\""
+marker = "python_version >= \"3.5\" and python_version < \"3.8\" or python_version < \"3.8\" or python_version >= \"3.5\" and python_version < \"3.8\" and (python_version >= \"3.5\" and python_version < \"3.8\" or python_version < \"3.8\")"
 name = "zipp"
 optional = false
 python-versions = ">=3.6"
@@ -1180,7 +1250,7 @@ docs = ["sphinx", "jaraco.packaging (>=3.2)", "rst.linker (>=1.9)"]
 testing = ["jaraco.itertools", "func-timeout"]
 
 [metadata]
-content-hash = "708a0b771bb78521637bfef43626777ae1b0b6552c6cf75929880740812bea97"
+content-hash = "aa0f9650d9c0d15a041c986010edb1fdc59e0c612fd44670388a6c055c1e6013"
 python-versions = "^3.7"
 
 [metadata.files]
@@ -1357,6 +1427,10 @@ jinja2 = [
     {file = "Jinja2-2.11.2-py2.py3-none-any.whl", hash = "sha256:f0a4641d3cf955324a89c04f3d94663aa4d638abe8f733ecd3582848e1c37035"},
     {file = "Jinja2-2.11.2.tar.gz", hash = "sha256:89aab215427ef59c34ad58735269eb58b1a5808103067f7bb9d5836c651b3bb0"},
 ]
+json5 = [
+    {file = "json5-0.9.5-py2.py3-none-any.whl", hash = "sha256:af1a1b9a2850c7f62c23fde18be4749b3599fd302f494eebf957e2ada6b9e42c"},
+    {file = "json5-0.9.5.tar.gz", hash = "sha256:703cfee540790576b56a92e1c6aaa6c4b0d98971dc358ead83812aa4d06bdb96"},
+]
 jsonschema = [
     {file = "jsonschema-3.2.0-py2.py3-none-any.whl", hash = "sha256:4e5b3cf8216f577bee9ce139cbe72eca3ea4f292ec60928ff24758ce626cd163"},
     {file = "jsonschema-3.2.0.tar.gz", hash = "sha256:c8a85b28d377cc7737e46e2d9f2b4f44ee3c0e1deac6bf46ddefc7187d30797a"},
@@ -1377,6 +1451,14 @@ jupyter-console = [
 jupyter-core = [
     {file = "jupyter_core-4.6.3-py2.py3-none-any.whl", hash = "sha256:a4ee613c060fe5697d913416fc9d553599c05e4492d58fac1192c9a6844abb21"},
     {file = "jupyter_core-4.6.3.tar.gz", hash = "sha256:394fd5dd787e7c8861741880bdf8a00ce39f95de5d18e579c74b882522219e7e"},
+]
+jupyterlab = [
+    {file = "jupyterlab-2.1.5-py3-none-any.whl", hash = "sha256:1ca00a008951ccfb197a3fd7a90bae8b1567dfeeab65d8552b19be9f8e9d7b01"},
+    {file = "jupyterlab-2.1.5.tar.gz", hash = "sha256:ca7b92491c32b66ad97be4a44d79aa702e4b6c59167e4189d5ce8cc742b15298"},
+]
+jupyterlab-server = [
+    {file = "jupyterlab_server-1.2.0-py3-none-any.whl", hash = "sha256:55d256077bf13e5bc9e8fbd5aac51bef82f6315111cec6b712b9a5ededbba924"},
+    {file = "jupyterlab_server-1.2.0.tar.gz", hash = "sha256:5431d9dde96659364b7cc877693d5d21e7b80cea7ae3959ecc2b87518e5f5d8c"},
 ]
 keyring = [
     {file = "keyring-20.0.1-py2.py3-none-any.whl", hash = "sha256:c674f032424b4bffc62abeac5523ec49cc84aed07a480c3233e0baf618efc15c"},
@@ -1492,6 +1574,9 @@ nbconvert = [
 nbformat = [
     {file = "nbformat-5.0.7-py3-none-any.whl", hash = "sha256:ea55c9b817855e2dfcd3f66d74857342612a60b1f09653440f4a5845e6e3523f"},
     {file = "nbformat-5.0.7.tar.gz", hash = "sha256:54d4d6354835a936bad7e8182dcd003ca3dc0cedfee5a306090e04854343b340"},
+]
+nglview = [
+    {file = "nglview-2.7.7.tar.gz", hash = "sha256:fd84e20f0c1e183f2c429509c4a64b226e8591253545358062f48f3ec7dafddb"},
 ]
 notebook = [
     {file = "notebook-6.0.3-py3-none-any.whl", hash = "sha256:3edc616c684214292994a3af05eaea4cc043f6b4247d830f3a2f209fa7639a80"},

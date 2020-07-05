@@ -19,6 +19,8 @@ plotly = "^4.8.2"
 pytest = "^5.4.3"
 pyyaml = "^5.3.1"
 xarray = "^0.15.1"
+jupyterlab = "^2.1.5"
+nglview = "^2.7.7"
 
 [tool.poetry.dev-dependencies]
 
