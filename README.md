@@ -2,6 +2,12 @@
 
 This repository contains code, literature, links, data, and other resources for the epidemiological models project.
 
+## Walk-Through Demos
+
+* [Descriptive stats demo](./descriptive_stats_demo/eggNOG_alignment_metadata.ipynb)
+* [Sequence similarity demo](./code/20200706_align_demo.ipynb)
+* [Structure similarity demo](./code/20200702_ngl_demo.ipynb)
+
 ## Links
 
 ### Data Leads
