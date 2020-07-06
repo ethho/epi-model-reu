@@ -1,0 +1,25 @@
+FROM jupyter/minimal-notebook:latest
+ENV HOME=/home/jovyan
+
+USER root
+RUN apt-get update && \
+    apt-get upgrade -yq --no-install-recommends
+USER $NB_UID
+
+# Python package deps
+ARG PYPROJECT_TOML=pyproject.toml
+COPY $PYPROJECT_TOML ./pyproject.toml
+RUN pip install poetry && \
+    poetry install -n
+
+# NGL viewer for Jupyter
+USER root
+RUN poetry run jupyter labextension install nglview-js-widgets && \
+    poetry run jupyter-nbextension enable nglview --py --sys-prefix
+
+# Clustal Omega
+RUN wget -O /usr/bin/clustalo http://www.clustal.org/omega/clustalo-1.2.4-Ubuntu-x86_64 && \
+    chmod +x /usr/bin/clustalo
+
+USER $NB_UID
+
