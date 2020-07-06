@@ -2,6 +2,12 @@
 
 This repository contains code, literature, links, data, and other resources for the epidemiological models project.
 
+## Walk-Through Demos
+
+* [Descriptive stats demo](./descriptive_stats_demo/eggNOG_alignment_metadata.ipynb)
+* [Sequence similarity demo](./code/20200706_align_demo.ipynb)
+* [Structure similarity demo](./code/20200702_ngl_demo.ipynb)
+
 ## Links
 
 ### Data Leads
@@ -13,7 +19,7 @@ This repository contains code, literature, links, data, and other resources for 
 #### Software Cheat Sheets
 
 * [Python3 cheat sheet](https://github.com/wilfredinni/python-cheatsheet)
-* TODO: Linux/Unix cheat sheet
+* [Linux/Unix cheat sheet](https://gist.github.com/hofmannsven/8392477)
 * [Pandas cheat sheet](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
 * Kelly P's [Python Data Science Tutorial](https://github.com/kellyp2738/python_data_science)
 * [Git cheat sheet][1]
@@ -22,7 +28,7 @@ This repository contains code, literature, links, data, and other resources for 
 #### Learning Git
 
 * GitHub provides a list of [resources to learn git](https://try.github.io/). Notably:
-   * [Learn git branching interactively](https://learngitbranching.js.org/) -- An interactive tool that helps one _vizualize_ git branching
+   * [Learn git branching interactively](https://learngitbranching.js.org/):  An interactive tool that helps one _vizualize_ git branching
    * A [cheat sheet][1] provided by GitHub
 
 ### More In-Depth Guides
@@ -42,8 +48,8 @@ This repository contains code, literature, links, data, and other resources for 
 Fun science side projects!
 
 * Looking at protein crystal structures
-    * [Protein Data Bank] (http://www.rcsb.org)(AKA PDB or RCSB) -- Public repository of protein structures
-    * [Pymol](https://pymol.org/) -- Free software for looking at structures from the RCSB (AKA "PDB structures")
+    * [Protein Data Bank](http://www.rcsb.org) (AKA PDB or RCSB):  Public repository of protein structures
+    * [Pymol](https://pymol.org/): Free software for looking at structures from the RCSB (AKA "PDB structures")
 
 
 [1]: https://github.github.com/training-kit/downloads/github-git-cheat-sheet/ "git cheat sheet"
