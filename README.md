@@ -48,7 +48,7 @@ This repository contains code, literature, links, data, and other resources for 
 Fun science side projects!
 
 * Looking at protein crystal structures
-    * [Protein Data Bank] (http://www.rcsb.org)(AKA PDB or RCSB) -- Public repository of protein structures
+    * [Protein Data Bank](http://www.rcsb.org) (AKA PDB or RCSB) -- Public repository of protein structures
     * [Pymol](https://pymol.org/) -- Free software for looking at structures from the RCSB (AKA "PDB structures")
 
 
