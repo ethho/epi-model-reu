@@ -68,5 +68,5 @@ jhub: image-jhub | docker
 		-v $$(dirname ${PWD}):/home/jovyan/work \
 		-e JUPYTER_ENABLE_LAB=yes \
 		$(IMAGE_JHUB) \
-		jupyter lab
+		poetry run jupyter notebook
 
