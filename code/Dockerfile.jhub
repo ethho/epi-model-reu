@@ -16,5 +16,10 @@ RUN pip install poetry && \
 USER root
 RUN poetry run jupyter labextension install nglview-js-widgets && \
     poetry run jupyter-nbextension enable nglview --py --sys-prefix
+
+# Clustal Omega
+RUN wget -O /usr/bin/clustalo http://www.clustal.org/omega/clustalo-1.2.4-Ubuntu-x86_64 && \
+    chmod +x /usr/bin/clustalo
+
 USER $NB_UID
 
