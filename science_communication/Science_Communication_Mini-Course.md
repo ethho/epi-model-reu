@@ -4,7 +4,7 @@
 
 ## Motivation
 
-Most of this mini-course is patterned from a Dr. Claus Wilke's Scientific Writing graduate seminar which I attended in 2014. Dr. Wilke has assembled much of his thinking on how to produce good scientific writing in his [Scientific Writing Virtual Book](https://serialmentor.com/virtualbooks/). We will work through some of the highlights of this resource, and I've prepared a few short exercises to reinforce the ideas from the reading.
+Most of this mini-course is patterned from Dr. Claus Wilke's Scientific Writing graduate seminar which I attended in 2014. Dr. Wilke has assembled much of his thinking on how to produce good scientific writing in his [Scientific Writing Virtual Book](https://serialmentor.com/virtualbooks/). We will work through some of the highlights of this resource, and I've prepared a few short exercises to reinforce the ideas from the reading.
 
 
 ## Schedule
