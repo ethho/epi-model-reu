@@ -79,4 +79,4 @@ Most of this mini-course is patterned from Dr. Claus Wilke's Scientific Writing 
 - ["How to create a research poster: poster basics"](https://guides.nyu.edu/c.php?g=276826&p=1846154)
 
 #### Exercises
-- Download a poster template and start working on your poster
+- TBD
