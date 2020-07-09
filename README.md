@@ -45,7 +45,8 @@ This repository contains code, literature, links, data, and other resources for 
 
 ### Misc.
 
-Fun science side projects!
+* Never enter your GitHub password again into Terminal: how to [add your SSH keys to GitHub](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+#### Fun science side projects!
 
 * Looking at protein crystal structures
     * [Protein Data Bank](http://www.rcsb.org) (AKA PDB or RCSB):  Public repository of protein structures
