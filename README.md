@@ -16,6 +16,10 @@ This repository contains code, literature, links, data, and other resources for 
 
 ### Learning Resources
 
+#### Coding Practice
+
+* [Python practice problems tailored for biology](https://www.programmingforbiologists.org/)
+
 #### Software Cheat Sheets
 
 * [Python3 cheat sheet](https://github.com/wilfredinni/python-cheatsheet)
