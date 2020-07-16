@@ -3,7 +3,7 @@ ENV HOME=/home/jovyan
 
 USER root
 RUN apt-get update && \
-    apt-get upgrade -yq --no-install-recommends
+    apt-get upgrade -yq --no-install-recommends pymol
 USER $NB_UID
 
 # Python package deps
