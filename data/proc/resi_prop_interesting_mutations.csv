@@ -2,7 +2,7 @@
 # isoform 2 to other species' homologs.
 # Filtered to only sequences of interest that are different from the human sequence
 # Author: Ethan Ho
-# Date: 2020-07-27 22:22:02.969370
+# Date: 2020-07-27 23:04:09.653501
 # From: 20200723_seq_sim.ipynb
 iso2_zero_idx,is_interesting,resi_reference,resi_compare,is_deletion,pka_delta,mass_delta,occurrence_delta,percent_buried_delta,buried_vol_delta,vdw_delta,accessible_delta,hydrophobicity_delta,iso1_one_idx,species
 149,True,C,H,False,-2.3000000000000007,34.14999999999999,0.4000000000000001,-28.0,61.0,32.0,47.0,3.0,113.0,Canis lupus familiaris

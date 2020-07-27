@@ -1,8 +1,8 @@
 # Dataframe containing comparison between human TMPRSS2
 # isoform 2 and the sequence in aligned EggNOG sequences
-# that had highest % identity with the human homolog, for species {species_name}
+# that had highest % identity with the human homolog, for species Canis lupus familiaris
 # Author: Ethan Ho
-# Date: 2020-07-27 22:19:16.791163
+# Date: 2020-07-27 23:01:22.686245
 # From: 20200723_seq_sim.ipynb
 iso2_zero_idx,is_interesting,resi_reference,resi_compare,is_deletion,pka_delta,mass_delta,occurrence_delta,percent_buried_delta,buried_vol_delta,vdw_delta,accessible_delta,hydrophobicity_delta,iso1_one_idx
 0,False,M,-,True,,,,,,,,,1.0
