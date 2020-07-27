@@ -1,0 +1,16 @@
+# Dataframe containing comparison between human TMPRSS2
+# isoform 2 to other species' homologs.
+# Filtered to only sequences of interest that are different from the human sequence
+# Author: Ethan Ho
+# Date: 2020-07-27 22:22:02.969370
+# From: 20200723_seq_sim.ipynb
+iso2_zero_idx,is_interesting,resi_reference,resi_compare,is_deletion,pka_delta,mass_delta,occurrence_delta,percent_buried_delta,buried_vol_delta,vdw_delta,accessible_delta,hydrophobicity_delta,iso1_one_idx,species
+149,True,C,H,False,-2.3000000000000007,34.14999999999999,0.4000000000000001,-28.0,61.0,32.0,47.0,3.0,113.0,Canis lupus familiaris
+156,True,C,P,False,,-5.8900000000000015,3.3,-23.0,23.0,4.0,1.0,6.0,120.0,Canis lupus familiaris
+259,True,K,-,True,,,,,,,,,223.0,Canis lupus familiaris
+260,True,K,S,False,,-41.08999999999999,1.6000000000000003,19.8,-72.0,-62.0,-87.0,-6.0,224.0,Canis lupus familiaris
+149,True,C,H,False,-2.3000000000000007,34.14999999999999,0.4000000000000001,-28.0,61.0,32.0,47.0,3.0,113.0,Felis catus
+156,True,C,P,False,,-5.8900000000000015,3.3,-23.0,23.0,4.0,1.0,6.0,120.0,Felis catus
+259,True,K,-,True,,,,,,,,,223.0,Felis catus
+260,True,K,S,False,,-41.08999999999999,1.6000000000000003,19.8,-72.0,-62.0,-87.0,-6.0,224.0,Felis catus
+260,True,K,R,False,1.6999999999999993,27.93000000000001,-0.5999999999999996,-4.2,54.0,13.0,29.0,-5.0,224.0,Gallus gallus

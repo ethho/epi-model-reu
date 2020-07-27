@@ -1,0 +1,169 @@
+,iso2_zero_idx,is_interesting,resi_reference,resi_compare,is_deletion,pka_delta,mass_delta,occurrence_delta,percent_buried_delta,buried_vol_delta,vdw_delta,accessible_delta,hydrophobicity_delta,iso1_one_idx,species
+149,149,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,113.0,Homo sapiens
+156,156,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,120.0,Homo sapiens
+162,162,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,126.0,Homo sapiens
+169,169,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,133.0,Homo sapiens
+175,175,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,139.0,Homo sapiens
+184,184,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,148.0,Homo sapiens
+208,208,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,172.0,Homo sapiens
+221,221,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.0,Homo sapiens
+259,259,True,K,K,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,223.0,Homo sapiens
+260,260,True,K,K,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,224.0,Homo sapiens
+267,267,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,231.0,Homo sapiens
+277,277,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,241.0,Homo sapiens
+280,280,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,244.0,Homo sapiens
+317,317,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.0,Homo sapiens
+332,332,True,H,H,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,296.0,Homo sapiens
+333,333,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,297.0,Homo sapiens
+381,381,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,345.0,Homo sapiens
+401,401,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,365.0,Homo sapiens
+446,446,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,410.0,Homo sapiens
+462,462,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,426.0,Homo sapiens
+471,471,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,435.0,Homo sapiens
+473,473,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,437.0,Homo sapiens
+477,477,True,S,S,False,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,441.0,Homo sapiens
+501,501,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,465.0,Homo sapiens
+149,149,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,113.0,Mus musculus
+156,156,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,120.0,Mus musculus
+162,162,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,126.0,Mus musculus
+169,169,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,133.0,Mus musculus
+175,175,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,139.0,Mus musculus
+184,184,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,148.0,Mus musculus
+208,208,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,172.0,Mus musculus
+221,221,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.0,Mus musculus
+259,259,True,K,K,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,223.0,Mus musculus
+260,260,True,K,K,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,224.0,Mus musculus
+267,267,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,231.0,Mus musculus
+277,277,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,241.0,Mus musculus
+280,280,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,244.0,Mus musculus
+317,317,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.0,Mus musculus
+332,332,True,H,H,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,296.0,Mus musculus
+333,333,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,297.0,Mus musculus
+381,381,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,345.0,Mus musculus
+401,401,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,365.0,Mus musculus
+446,446,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,410.0,Mus musculus
+462,462,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,426.0,Mus musculus
+471,471,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,435.0,Mus musculus
+473,473,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,437.0,Mus musculus
+477,477,True,S,S,False,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,441.0,Mus musculus
+501,501,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,465.0,Mus musculus
+149,149,True,C,H,False,-2.3000000000000007,34.14999999999999,0.4000000000000001,-28.0,61.0,32.0,47.0,3.0,113.0,Canis lupus familiaris
+156,156,True,C,P,False,,-5.8900000000000015,3.3,-23.0,23.0,4.0,1.0,6.0,120.0,Canis lupus familiaris
+162,162,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,126.0,Canis lupus familiaris
+169,169,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,133.0,Canis lupus familiaris
+175,175,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,139.0,Canis lupus familiaris
+184,184,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,148.0,Canis lupus familiaris
+208,208,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,172.0,Canis lupus familiaris
+221,221,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.0,Canis lupus familiaris
+259,259,True,K,-,True,,,,,,,,,223.0,Canis lupus familiaris
+260,260,True,K,S,False,,-41.08999999999999,1.6000000000000003,19.8,-72.0,-62.0,-87.0,-6.0,224.0,Canis lupus familiaris
+267,267,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,231.0,Canis lupus familiaris
+277,277,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,241.0,Canis lupus familiaris
+280,280,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,244.0,Canis lupus familiaris
+317,317,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.0,Canis lupus familiaris
+332,332,True,H,H,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,296.0,Canis lupus familiaris
+333,333,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,297.0,Canis lupus familiaris
+381,381,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,345.0,Canis lupus familiaris
+401,401,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,365.0,Canis lupus familiaris
+446,446,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,410.0,Canis lupus familiaris
+462,462,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,426.0,Canis lupus familiaris
+471,471,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,435.0,Canis lupus familiaris
+473,473,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,437.0,Canis lupus familiaris
+477,477,True,S,S,False,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,441.0,Canis lupus familiaris
+501,501,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,465.0,Canis lupus familiaris
+149,149,True,C,H,False,-2.3000000000000007,34.14999999999999,0.4000000000000001,-28.0,61.0,32.0,47.0,3.0,113.0,Felis catus
+156,156,True,C,P,False,,-5.8900000000000015,3.3,-23.0,23.0,4.0,1.0,6.0,120.0,Felis catus
+162,162,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,126.0,Felis catus
+169,169,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,133.0,Felis catus
+175,175,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,139.0,Felis catus
+184,184,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,148.0,Felis catus
+208,208,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,172.0,Felis catus
+221,221,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.0,Felis catus
+259,259,True,K,-,True,,,,,,,,,223.0,Felis catus
+260,260,True,K,S,False,,-41.08999999999999,1.6000000000000003,19.8,-72.0,-62.0,-87.0,-6.0,224.0,Felis catus
+267,267,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,231.0,Felis catus
+277,277,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,241.0,Felis catus
+280,280,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,244.0,Felis catus
+317,317,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.0,Felis catus
+332,332,True,H,H,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,296.0,Felis catus
+333,333,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,297.0,Felis catus
+381,381,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,345.0,Felis catus
+401,401,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,365.0,Felis catus
+446,446,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,410.0,Felis catus
+462,462,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,426.0,Felis catus
+471,471,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,435.0,Felis catus
+473,473,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,437.0,Felis catus
+477,477,True,S,S,False,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,441.0,Felis catus
+501,501,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,465.0,Felis catus
+149,149,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,113.0,Bos taurus
+156,156,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,120.0,Bos taurus
+162,162,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,126.0,Bos taurus
+169,169,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,133.0,Bos taurus
+175,175,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,139.0,Bos taurus
+184,184,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,148.0,Bos taurus
+208,208,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,172.0,Bos taurus
+221,221,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.0,Bos taurus
+259,259,True,K,K,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,223.0,Bos taurus
+260,260,True,K,K,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,224.0,Bos taurus
+267,267,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,231.0,Bos taurus
+277,277,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,241.0,Bos taurus
+280,280,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,244.0,Bos taurus
+317,317,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.0,Bos taurus
+332,332,True,H,H,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,296.0,Bos taurus
+333,333,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,297.0,Bos taurus
+381,381,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,345.0,Bos taurus
+401,401,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,365.0,Bos taurus
+446,446,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,410.0,Bos taurus
+462,462,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,426.0,Bos taurus
+471,471,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,435.0,Bos taurus
+473,473,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,437.0,Bos taurus
+477,477,True,S,S,False,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,441.0,Bos taurus
+501,501,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,465.0,Bos taurus
+149,149,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,113.0,Equus caballus
+156,156,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,120.0,Equus caballus
+162,162,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,126.0,Equus caballus
+169,169,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,133.0,Equus caballus
+175,175,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,139.0,Equus caballus
+184,184,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,148.0,Equus caballus
+208,208,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,172.0,Equus caballus
+221,221,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.0,Equus caballus
+259,259,True,K,K,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,223.0,Equus caballus
+260,260,True,K,K,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,224.0,Equus caballus
+267,267,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,231.0,Equus caballus
+277,277,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,241.0,Equus caballus
+280,280,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,244.0,Equus caballus
+317,317,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.0,Equus caballus
+332,332,True,H,H,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,296.0,Equus caballus
+333,333,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,297.0,Equus caballus
+381,381,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,345.0,Equus caballus
+401,401,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,365.0,Equus caballus
+446,446,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,410.0,Equus caballus
+462,462,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,426.0,Equus caballus
+471,471,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,435.0,Equus caballus
+473,473,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,437.0,Equus caballus
+477,477,True,S,S,False,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,441.0,Equus caballus
+501,501,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,465.0,Equus caballus
+149,149,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,113.0,Gallus gallus
+156,156,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,120.0,Gallus gallus
+162,162,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,126.0,Gallus gallus
+169,169,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,133.0,Gallus gallus
+175,175,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,139.0,Gallus gallus
+184,184,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,148.0,Gallus gallus
+208,208,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,172.0,Gallus gallus
+221,221,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,185.0,Gallus gallus
+259,259,True,K,K,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,223.0,Gallus gallus
+260,260,True,K,R,False,1.6999999999999993,27.93000000000001,-0.5999999999999996,-4.2,54.0,13.0,29.0,-5.0,224.0,Gallus gallus
+267,267,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,231.0,Gallus gallus
+277,277,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,241.0,Gallus gallus
+280,280,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,244.0,Gallus gallus
+317,317,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.0,Gallus gallus
+332,332,True,H,H,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,296.0,Gallus gallus
+333,333,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,297.0,Gallus gallus
+381,381,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,345.0,Gallus gallus
+401,401,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,365.0,Gallus gallus
+446,446,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,410.0,Gallus gallus
+462,462,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,426.0,Gallus gallus
+471,471,True,D,D,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,435.0,Gallus gallus
+473,473,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,437.0,Gallus gallus
+477,477,True,S,S,False,,0.0,0.0,0.0,0.0,0.0,0.0,0.0,441.0,Gallus gallus
+501,501,True,C,C,False,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,465.0,Gallus gallus
